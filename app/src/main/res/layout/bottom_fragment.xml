@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/penguins">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Top Meme Text"
+        android:id="@+id/topMeme"
+        android:layout_marginTop="25dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bottom Meme Text"
+        android:id="@+id/bottomMeme"
+        android:textColor="#e71515"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/topMeme"
+        android:layout_alignEnd="@+id/topMeme"
+        android:layout_marginRight="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="128dp" />
+</RelativeLayout>
